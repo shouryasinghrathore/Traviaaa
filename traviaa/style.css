@@ -16,7 +16,7 @@
 }
 
 .MJ{
-   background-image: url("/lycs-architecture-kUdbEEMcRwE-unsplash.jpg");
+   background-image: url("lycs-architecture-kUdbEEMcRwE-unsplash.jpg");
    background-attachment: fixed;
    background-position: center;
    background-repeat: no-repeat;
@@ -28,9 +28,6 @@
 .services img{
     width: 100%;
     height: 100%;
-}
-.offer-style{
-    background-color: #0b0c57;
 }
 
 .l{
