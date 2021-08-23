@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
+  <div id="preloader"></div>
 
   <!--------------------------------------------------------NAVBAR------------------------------------------------------------ -->
 
@@ -99,10 +100,10 @@
       <div class="row my-5">
         <div class="col-lg-6 col-md-6 col-12 col-xl">
           <figure>
-            <img src="about.jpg" alt="" class="img-fluid about-img">
+            <img src="about.jpg" alt="" class="img-fluid about-img" >
           </figure>
         </div>
-        <div class="col-lg-6 col-md-6 col-12 col-xl d-flex justify-content-center  start align-items-start flex-column">
+        <div class="col-lg-6 col-md-6 col-12 col-xl d-flex justify-content-center  start align-items-start flex-column" data-aos="fade-up">
           <h1>Holidays</h1>
           <P> Ametconsectetur adipisicingNumquam deleniti quae veniam dolorem quia, dolore,
             tempora ut debitis sequi quis, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus ex
@@ -452,6 +453,14 @@
         offset:305,
         duration:900, 
       });
+    </script>
+    <script>
+      var loader = document.getElementById("preloader"); 
+      window .addEventListener(
+        "load",function()
+{
+  loader.style.display= "none";
+})
     </script>
   
 </body>
