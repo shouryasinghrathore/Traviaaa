@@ -19,6 +19,7 @@
 }
 
 .MJ{
+    isolation: isolate;
    background-image: url("lycs-architecture-kUdbEEMcRwE-unsplash.jpg");
    background-attachment: fixed;
    background-position: center;
